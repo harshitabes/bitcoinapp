@@ -1,0 +1,38 @@
+{% load static %}
+
+<html>
+<head>
+<title>Bitcoin market</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'bitcoin/styl.css' %}">
+
+<body>
+<div class="head">
+<h1 >Welcome to BitCoin Market</h1>
+</div>
+
+	<div class="forms">
+	<form method="POST" action="{% url 'price' %}" target="_blank">
+        {% csrf_token %}
+	<h3 > Full Name:</h3>
+	<input type="text" name="name">
+	<br>
+	<br>
+
+	<br>
+	<br>
+        <h3>Select your Currency:</h3>
+	<Select name="Currency">
+	<option value="USD">US Dollar</option>
+	<option value="GBP">Great Britain Pound</option>
+	<option value="EUR">Euro</option>
+
+	</select>
+
+	<input type="submit" value="submit">
+	</form>
+	</div>
+</body>
+</head>
+</html>
+
+

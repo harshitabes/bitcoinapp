@@ -1,0 +1,57 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family:Verdana;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: blue;
+    color: red;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Apple Chancery, cursive;
+    -ms-text-size-adjust: initial;
+
+}
+
+input[type=submit]:hover {
+    background-color: green;
+
+}
+
+div {
+    border-radius: 5px;
+
+    padding: 20px;
+}
+
+body {
+
+    background-image: url("https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2017/12/bitcoin-2348236_960_720.jpg");
+}
+
+h1{
+text-align:center;
+    color:blueviolet;
+    font-family: Apple Chancery, cursive;
+    -moz-text-size-adjust: auto;
+    background-attachment: border-bottom-color: transparent;;
+
+}
+
+.head,body{
+    background-image: url("https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2017/12/bitcoin-2348236_960_720.jpg");
+    color:violet;
+    font-family:  Apple Chancery, cursive;
+
+
+}

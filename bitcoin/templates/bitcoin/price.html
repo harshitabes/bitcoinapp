@@ -1,0 +1,19 @@
+{% load static %}
+
+<html>
+<head>
+<title>Bitcoin market</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'bitcoin/styl.css' %}">
+
+<body>
+{% csrf_token %}
+<div class="head">
+<h1>Price of 1 Bitcoin =
+{{ data }} {{ detail }}
+</h1>
+</div>
+</body>
+</head>
+</html>
+
+
